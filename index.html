@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crud</title>
-    <link rel="stylesheet" href="/src/assets/css/global.css">
-</head>
-<body id="container">
+    <link rel="stylesheet" href="/src/assets/css/global.css" />
+    <link rel="stylesheet" href="/src/assets/css/aside.css">
+  </head>
+  <body id="container">
     <header id="header" class="header">
-        <div class="header__nav"></div>
+      <div class="header__nav"></div>
     </header>
     <main id="main" class="main">
-        <aside id="aside" class="aside"></aside>
+        <aside id="aside" class="aside">
+            <form class="aside__form">
+            <legend class="form__description">Add New Student</legend>
+                <div class="form__inputs">
+                    <label for="inputs__name">Frist Name</label>
+                    <input id="inputs__name" type="text" placeholder="Your name" />
+                    <label for="inputs__Email">Email</label>
+                    <input id="inputs__Email" type="text" placeholder="Your email" />
+                </div>
+                <div class="form__send">
+                    <button class="send__button" type="submit">Send</button>
+                </div>
+            </form>
+        </aside>
         <section id="list" class="list"></section>
     </main>
-</body>
+  </body>
 </html>
