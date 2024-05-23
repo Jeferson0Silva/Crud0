@@ -1,0 +1,65 @@
+#list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #e2e4e7;
+}
+
+.list__group{
+    width: 75vw;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+}
+
+.group__subjects {
+    width: 70vw;
+    height: 12vh;
+    display: flex;
+    gap: 1px;
+    background: #6b6565;
+    border-radius: 4px;
+
+}
+
+.subjects__topic {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff; 
+    border-radius: 4px 0 0 4px;
+    box-shadow:  0 0 5px 0 #b6b4b4;
+}
+
+.topic__name {
+    margin: 5% 0 0 30%;
+}
+
+.topic__btn {
+    margin: 0 0 0 85%;
+    width: 6vw;
+    min-width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    color: #ffffff;
+    background: #45bffe;
+    border: none;
+    cursor: pointer;
+}
+
+.subjects__students {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 0 4px 4px 0;
+    box-shadow:  0 0 5px 0 #b6b4b4;
+}
